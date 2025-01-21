@@ -1,0 +1,171 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1A; 
+    color: #F5F5F5; 
+}
+
+header {
+    background-color: #1A1A1A; 
+    color: #FFD700; 
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F5F5F5; /* Light Gray text color */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cta-button {
+    background-color: #3498DB; /* Dodger Blue background */
+    color: #F5F5F5; /* Light Gray text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #007BB5; /* Slightly darker Dodger Blue on hover */
+    transform: translateY(-5px);
+}
+
+.hero {
+    background-color: #3498DB; /* Dodger Blue background */
+    padding: 50px;
+    text-align: center;
+}
+
+.catchy-text {
+    color: #F5F5F5; /* Light Gray text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.catchy-text:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle box shadow on hover */
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    color: #3498DB; /* Dodger Blue text color */
+}
+
+.service h3 {
+    color: #3498DB; /* Dodger Blue text color */
+}
+
+footer {
+    background-color: #1A1A1A; /* Dark Charcoal background */
+    color: #F5F5F5; /* Light Gray text color */
+    padding: 20px 0;
+}
+
+footer nav ul {
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin-right: 15px;
+}
+
+footer a {
+    color: #F5F5F5; /* Light Gray text color */
+}
+
+contact {
+    background-color: #1A1A1A; /* Dark Charcoal background */
+    color: #F5F5F5; /* Light Gray text color */
+    padding: 50px 0;
+}
+
+.inquiry-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.inquiry-form h2 {
+    color: #3498DB; /* Dodger Blue text color */
+}
+
+.inquiry-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #3498DB; /* Dodger Blue text color */
+}
+
+.inquiry-form input,
+.inquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #3498DB; /* Dodger Blue border */
+    border-radius: 5px;
+    background-color: #1A1A1A; /* Dark Charcoal background */
+    color: #F5F5F5; /* Light Gray text color */
+}
+
+.inquiry-form textarea {
+    resize: vertical;
+}
+
+.inquiry-form button {
+    background-color: #3498DB; /* Dodger Blue background */
+    color: #F5F5F5; /* Light Gray text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inquiry-form button:hover {
+    background-color: #007BB5; /* Slightly darker Dodger Blue on hover */
+}
+
+/* Hover effect for the logo */
+.logo {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin-right: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    filter: brightness(120%);
+    transform: translateY(-5px);
+}
